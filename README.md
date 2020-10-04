@@ -1,5 +1,5 @@
 # TTGSnackbar
-A Swift based implementation of the Android Snackbar for iOS
+A Swift based implementation of the Android Snackbar for IOS.
 
 [![Build Status](https://travis-ci.org/zekunyan/TTGSnackbar.svg?branch=master)](https://travis-ci.org/zekunyan/TTGSnackbar)
 [![Version](https://img.shields.io/cocoapods/v/TTGSnackbar.svg?style=flat)](https://github.com/zekunyan/TTGSnackbar)
@@ -53,9 +53,9 @@ github "zekunyan/TTGSnackbar"
 ### Import
 
 And you need to import the module.  
-```
+```````
 import TTGSnackbar
-```
+```````
 
 # Usage
 ## Show a simple message
@@ -63,7 +63,7 @@ import TTGSnackbar
 ```
 let snackbar = TTGSnackbar(message: "TTGSnackbar !", duration: .short)
 snackbar.show()
-```
+`````
 ## Show a simple message with an action button
 ![Example](https://github.com/zekunyan/TTGSnackbar/raw/master/Resources/snackbar_2.png)
 ```
